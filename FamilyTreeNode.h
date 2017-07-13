@@ -6,8 +6,8 @@ class FamilyTreeNode
 {
     public:
     FamilyTreeNode *leftParent, *rightParent;
-	Person person;
-	FamilyTreeNode(const Person& person);
+    Person person;
+    FamilyTreeNode(const Person& person);
     FamilyTreeNode(const Person& person,FamilyTreeNode *leftParent,FamilyTreeNode *rightParent);
 };
 
